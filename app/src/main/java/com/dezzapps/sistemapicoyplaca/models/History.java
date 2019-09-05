@@ -7,11 +7,11 @@ import com.dezzapps.sistemapicoyplaca.data.VehicleContract;
 public class History {
 
     private int id;
-    private double create_at;
+    private long create_at;
     private String dataIn;
     private String dataOut;
 
-    public History(int id, double create_at, String dataIn, String dataOut) {
+    public History(int id, long create_at, String dataIn, String dataOut) {
         this.id = id;
         this.create_at = create_at;
         this.dataIn = dataIn;
@@ -26,11 +26,12 @@ public class History {
         this.id = id;
     }
 
-    public double getCreate_at() {
+
+    public long getCreate_at() {
         return create_at;
     }
 
-    public void setCreate_at(double create_at) {
+    public void setCreate_at(long create_at) {
         this.create_at = create_at;
     }
 

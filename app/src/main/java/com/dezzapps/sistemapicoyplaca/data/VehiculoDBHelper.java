@@ -104,7 +104,7 @@ public class VehiculoDBHelper extends SQLiteOpenHelper {
 
             do {
 
-                History history = new History(c.getInt(id), c.getDouble(create_at), c.getString(datain), c.getString(dataout));
+                History history = new History(c.getInt(id), c.getLong(create_at), c.getString(datain), c.getString(dataout));
                 histories.add(history);
 
             } while(c.moveToNext());
