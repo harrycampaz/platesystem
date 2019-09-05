@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">Sistema picoyplaca</string>
+    <string name="app_name">Sistema Pico y Placa</string>
     <string name="search">Consultar</string>
     <string name="history">Historial</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="titlulo_pickers">fecha y hora</string>
+
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="formato_hora">hh:mm</string>
+    <string name="title_activity_history">HistoryActivity</string>
 </resources>
