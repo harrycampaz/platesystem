@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sistema picoyplaca</string>
+    <string name="search">Consultar</string>
+    <string name="history">Historial</string>
+</resources>
